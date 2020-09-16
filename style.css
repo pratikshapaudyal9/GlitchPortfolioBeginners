@@ -1,0 +1,46 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 50px;
+  font-size: 50px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+fa-github{
+  background: #007bb5;
+  color: white;
+}
+
+fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Twitter */
+fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
