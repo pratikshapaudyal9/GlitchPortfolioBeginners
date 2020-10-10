@@ -4,11 +4,103 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
+a {
+	color:  black;
+	text-decoration: none;
+}
+header {
+  font-size: 40px;
+  height: 100px;
+  background: rgb(54, 136, 104);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Football{
+	text-align: center;
+	border: 1px solid green;
+	font-size: 20px;
+
+}
+.Food{
+	text-align: center;
+	border: 1px solid green;
+	font-size: 20px;  
+  grid-gap: 4px;
+
+}
+
+.Tech{
+	text-align: center;
+	border: 1px solid green;
+	font-size: 20px;
+  
+
+}
+
+.container {
+  display: flex;
+}
+.container > div {
+  flex: 1; /*grow*/
+}
+
+
+.profile{
+  display: flex;
+}
+.profile > div {
+  flex: 1; /*grow*/
+}
+
+.Photo{
+	text-align: center;
+	font-size: 20px;
+  border: 1px solid green;
+
+}
+
+.Personal{
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid green;
+
+}
+
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: white;
 }
+
+h3{
+  font-style: italic;
+  color: purple;
+  align-items: center;
+  justify-content: center;
+}
+
+sidebar {
+  position: fixed;
+  width: 10em;
+  height: auto;
+  top: 15%;
+  right: auto;
+  bottom: 100px;
+  left: 0;
+}
+
+main {
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 15%;
+  right: 0;
+  bottom: 100px;
+  left: 10em;
+}
+
 
 /* Style all font awesome icons */
 .fa {
@@ -21,7 +113,16 @@ h1 {
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.5;
+}
+.Footer{
+	text-align: center;
+	background-color: rgb(54, 136, 104);
+	padding: 5px;
+}
+
+links{
+  text-align: center;
 }
 
 fa-github{
